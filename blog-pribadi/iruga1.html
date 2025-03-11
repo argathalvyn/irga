@@ -1,0 +1,264 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    </link>
+
+</head>
+
+<body class="bg-gray-100 font-roboto">
+    <header class="bg-black text-white">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center space-x-4">
+                <h1 class="text-xl font-bold leading-tight">IRUGA</h1>
+                <a href="https://www.instagram.com/irwhdz/" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram logo"
+                        class="w-6 h-6">
+                </a>
+                <a href="https://www.discord.com" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111370.png" alt="Discord logo"
+                        class="w-6 h-6">
+                </a>
+                <a href="https://youtube.com/@irwahiga?si=F5gU9bEgHNjrHRL-" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube logo"
+                        class="w-6 h-6">
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-6 items-center">
+                <a href="iruga1.html" class="text-sm font-semibold hover:text-gray-400">HOME</a>
+                <a href="#" class="text-sm font-semibold hover:text-gray-400">ABOUT</a>
+                <div class="relative">
+                    <button class="text-sm font-semibold hover:text-gray-400 focus:outline-none"
+                        id="languageButton">BAHASA</button>
+                    <div class="absolute right-0 mt-2 w-32 bg-white text-black rounded shadow-lg hidden"
+                        id="languageMenu">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">Indonesia</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">English</a>
+                    </div>
+                </div>
+                <div class="relative">
+                    <input type="text" id="searchInput" class="text-black text-sm px-2 py-1 pr-8 rounded"
+                        placeholder="Cari Disini...">
+                    <button class="absolute inset-y-0 right-0 flex items-center pr-2" id="searchButton">
+                        <i class="fas fa-search text-black"></i>
+                    </button>
+                </div>
+                <a href="#" class="text-sm font-semibold hover:text-gray-400">LOGIN</a>
+
+
+                <!--  -->
+            </nav>
+            <div class="md:hidden">
+                <button id="mobileMenuButton" class="text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="md:hidden hidden" id="mobileMenu">
+            <nav class="px-6 pb-4">
+                <a href="iruga1.html" class="block py-2 text-sm font-semibold hover:text-gray-400">HOME</a>
+                <a href="#" class="block py-2 text-sm font-semibold hover:text-gray-400">ABOUT</a>
+                <div class="relative">
+                    <button
+                        class="block w-full text-left py-2 text-sm font-semibold hover:text-gray-400 focus:outline-none"
+                        id="mobileLanguageButton">BAHASA</button>
+                    <div class="hidden" id="mobileLanguageMenu">
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">Indonesia</a>
+                        <a href="#" class="block px-4 py-2 text-sm hover:bg-gray-200">English</a>
+                    </div>
+                </div>
+                <div class="relative mt-2">
+                    <input type="text" id="mobileSearchInput" class="w-full text-black text-sm px-2 py-1 pr-8 rounded"
+                        placeholder="Cari Disini...">
+                    <button class="absolute inset-y-0 right-0 flex items-center pr-2" id="mobileSearchButton">
+                        <i class="fas fa-search text-black"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="flex flex-col md:flex-row items-center justify-center min-h-screen p-6">
+        <div class="md:w-1/2 p-6">
+            <p class="text-blue-500 text-sm uppercase tracking-widest" data-aos="fade-down" data-aos-duration="2000">
+                GABUT | Content Creator | Menungso Biasa
+            </p>
+            <h1 class="text-4xl font-bold mt-4" data-aos="fade-down" data-aos-duration="2000">
+                Hello, Aku Irga!
+            </h1>
+            <p class="text-gray-700 mt-4" data-aos="fade-right" data-aos-duration="1000">
+                Selamat datang di web tidak berguna saya. Saya adalah konten kreator biasa yang baru mulai berkarya di
+                YouTube dan di Tiktok.
+                Saya berkarya kurang lebih selama 5 tahun, dan sering mandek wkwkwk, atau bisa di bilang tidak
+                konsisten. Saya sangat suka dengan hal hal yang berbau teknologi, seperti website ini. Dan hobi ku ini
+                sebagai sampingan ya teman-teman. Mungkin segitu aja cerita singkat dari saya, jika ada yang kurang
+                nanti
+                saya tambahkan, terima kasih.
+            </p>
+            <p class="text-gray-700 mt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Kepoin aktivitas saya disini!
+            </p>
+            <button
+                class="mt-6 bg-red-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-red-600 transition duration-300"
+                data-aos="flip-left" data-aos-duration="1000">
+                Cek Disini!
+                <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+        </div>
+        <!-- GAMBAR PERTAMA -->
+        <div class="md:w-1/2 p-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+            <img alt="Profil Cute Gw" class="rounded-lg shadow-lg"
+                src="gambar/A cute and simple chibi avatar of a teenager wearing a jeans jacket and glasses with black hair. and....jpeg"
+                width="600" height="400" />
+        </div>
+
+    </div>
+    <h2 class="flex flex-col md:flex-row items-center justify-center min-h-screen p-6 text-gray-800 mt-4 font-semibold"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+        Tidak ada apa apa disini.
+    </h2>
+
+
+
+
+    <script>
+        document.getElementById('languageButton').addEventListener('click', function () {
+            var menu = document.getElementById('languageMenu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('mobileMenuButton').addEventListener('click', function () {
+            var menu = document.getElementById('mobileMenu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+        document.getElementById('mobileLanguageButton').addEventListener('click', function () {
+            var menu = document.getElementById('mobileLanguageMenu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden');
+            } else {
+                menu.classList.add('hidden');
+            }
+        });
+
+        // Close the menu if clicked outside
+        window.addEventListener('click', function (e) {
+            var languageMenu = document.getElementById('languageMenu');
+            var mobileLanguageMenu = document.getElementById('mobileLanguageMenu');
+            if (!document.getElementById('languageButton').contains(e.target) && !languageMenu.contains(e.target)) {
+                languageMenu.classList.add('hidden');
+            }
+            if (!document.getElementById('mobileLanguageButton').contains(e.target) && !mobileLanguageMenu.contains(e.target)) {
+                mobileLanguageMenu.classList.add('hidden');
+            }
+        });
+
+        // Search functionality
+        function handleSearch(inputId) {
+            var input = document.getElementById(inputId);
+            if (input.value.toLowerCase() === 'rahasia') {
+                window.location.href = 'secret.html';
+            } else if (input.value.toLowerCase() === 'cupid') {
+                window.open('https://youtu.be/Qc7_zRjH808?si=JSAILziE7_BewEZ2', '_blank'); // Mengalihkan ke YouTube
+            } else if (input.value.toLowerCase() === 'rafli') {
+                window.open('https://www.instagram.com/rafli_danuarta?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', '_blank');
+            }
+            else {
+                alert('Kata kunci tidak dikenali!'); // Pesan jika kata kunci tidak dikenali
+            }
+        }
+
+
+
+        document.getElementById('searchButton').addEventListener('click', function () {
+            handleSearch('searchInput');
+        });
+
+        document.getElementById('mobileSearchButton').addEventListener('click', function () {
+            handleSearch('mobileSearchInput');
+        });
+
+        document.getElementById('searchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                handleSearch('searchInput');
+            }
+        });
+
+        document.getElementById('mobileSearchInput').addEventListener('keypress', function (e) {
+            if (e.key === 'Enter') {
+                handleSearch('mobileSearchInput');
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- FOOTER -->
+
+
+    <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" height="" data-aos="fade-up" data-aos-duration="3000"
+        data-aos-delay="300">
+        <path fill="#00cba9" fill-opacity="1"
+            d="M0,192L40,170.7C80,149,160,107,240,106.7C320,107,400,149,480,176C560,203,640,213,720,197.3C800,181,880,139,960,117.3C1040,96,1120,96,1200,106.7C1280,117,1360,139,1400,149.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+        </path>
+    </svg> -->
+
+    <!-- Back to Top Button -->
+    <div class="flex justify-end items-center mb-4 mr-4">
+        <a href="#" class="text-gray-400 hover:text-black">
+            <i class="fas fa-arrow-up text-2xl"></i>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-gray-300 py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                    <h2 class="text-xl font-bold mb-4">Sebuah Quotes</h2>
+                    <p class="text-gray-400">Jika dia jodohmu, maka dia akan kembali memilihmu.</p>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0 md:pl-8">
+                    <h2 class="text-xl font-bold mb-4">Mau mencoba fitur lain?</h2>
+                    <ul>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Beranda</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Tentang Saya</a></li>
+                        <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="w-full md:w-1/3 mb-6 md:mb-0">
+                    <h2 class="text-xl font-bold mb-4">Follow Me</h2>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 text-center text-white-500">
+                &copy; 2025 Irga. All rights reserved. Seorang pemula yang mencoba belajar coding tapi bukan ranahnya.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
